@@ -13,7 +13,7 @@ Ansible playbook for Mac OS X bootstrap for Python Full stack developers.
 In my work, I use:
 * zsh with oh-my-zsh
 * Python 2, Python 3 and Go for backend development
-* pipenv and pyenv for Python dependencies management
+* pipenv and pyenv to install Python versions and packages
 * Ember.js for frontend development
 * PostgreSQL, MySQL databases
 * MongoDB
