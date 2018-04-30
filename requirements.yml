@@ -2,5 +2,6 @@
 - src: 0x4e3.osx-bootstrap-homebrew
   version: v1.0.2
 - src: 0x4e3.osx-bootstrap-user
+  version: v1.0.1
 - src: 0x4e3.osx-bootstrap-npm
-  version: v1.0.0
+  version: v1.0.1
