@@ -11,6 +11,7 @@ Ansible playbook for Mac OS X bootstrap for Python Full stack developers.
 ## General content
 
 In my work, I use:
+* zsh with oh-my-zsh
 * Python 2, Python 3 and Go for backend development
 * pipenv and pyenv for Python dependencies management
 * Ember.js for frontend development
@@ -35,6 +36,10 @@ Play:
 ```bash
 ansible-playbook playbook.yml
 ```
+
+## TODOs
+
+* [ ] add role for Mac OS X ```defaults``` configuration
 
 ## Notes
 
