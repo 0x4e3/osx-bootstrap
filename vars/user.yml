@@ -8,6 +8,7 @@ user_exports:
 - GOPATH=$HOME/Projects/go
 - PATH=$PATH:$GOPATH/bin
 - PYTHONDONTWRITEBYTECODE=whooosh
+- PATH="/usr/local/opt/node@8/bin:$PATH"
 
 oh_my_zsh_plugins:
 - osx
