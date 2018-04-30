@@ -1,0 +1,40 @@
+---
+user_exports:
+- PATH="/usr/local/sbin:$PATH"
+- PATH="/usr/local/opt/node@6/bin:$PATH"
+- PATH="$PATH:$HOME/.rvm/bin"
+- PATH="/usr/local/opt/mongodb@3.2/bin:$PATH"
+- PATH=$PATH:/usr/local/opt/go/libexec/bin
+- GOPATH=$HOME/Projects/go
+- PATH=$PATH:$GOPATH/bin
+- PYTHONDONTWRITEBYTECODE=whooosh
+
+oh_my_zsh_plugins:
+- osx
+- man
+- colored-man
+- brew
+- git
+- git-flow
+- python
+- pip
+- virtualenv
+- pyenv
+- django
+- celery
+
+oh_my_zsh_hash_directories:
+- projects=~/Projects
+- sandbox=~/Projects/sandbox
+- suzuki-projects=~/Projects/suzuki
+- itgene-projects=~/Projects/itgene
+- personal=~/Projects/personal
+
+oh_my_zsh_aliases:
+- zshconfig="vim ~/.zshrc"
+- zshupdate="source ~/.zshrc"
+- ohmyzsh="vim ~/.oh-my-zsh"
+- lh="ls -lah"
+- get-pub-key="cat ~/.ssh/id_rsa.pub"
+- c="/usr/bin/clear"
+- fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'

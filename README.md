@@ -5,6 +5,7 @@ Ansible playbook for Mac OS X bootstrap for Python Full stack developers.
 ## Roles
 
 * [0x4e3.osx-bootstrap-homebrew](https://galaxy.ansible.com/0x4e3/osx-bootstrap-homebrew/) -- install homebrew, required taps, packages and applications.
+* [0x4e3.osx-bootstrap-user](https://galaxy.ansible.com/0x4e3/osx-bootstrap-user/) -- configure user environment (shell, path, etc.).
 * [0x4e3.osx-bootstrap-npm](https://galaxy.ansible.com/0x4e3/osx-bootstrap-npm/) -- install node, npm and required global packages for frontend.
 
 ## General content

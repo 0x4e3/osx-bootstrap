@@ -3,6 +3,8 @@
   vars_files:
     - vars/homebrew.yml
     - vars/npm.yml
+    - vars/user.yml
   roles:
     - 0x4e3.osx-bootstrap-homebrew
+    - 0x4e3.osx-bootstrap-user
     - 0x4e3.osx-bootstrap-npm
