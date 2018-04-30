@@ -39,3 +39,4 @@ oh_my_zsh_aliases:
 - get-pub-key="cat ~/.ssh/id_rsa.pub"
 - c="/usr/bin/clear"
 - fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
+- osx-bootstrap="sh -c '$(curl -fsSL https://github.com/0x4e3/osx-bootstrap-install/blob/master/bootstrap.sh)'"
