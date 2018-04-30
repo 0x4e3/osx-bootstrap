@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  vars_files:
+    - vars/homebrew.yml
+    - vars/npm.yml
+  roles:
+    - 0x4e3.osx-bootstrap-homebrew
+    - 0x4e3.osx-bootstrap-npm

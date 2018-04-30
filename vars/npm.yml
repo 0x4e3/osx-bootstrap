@@ -1,0 +1,10 @@
+---
+npm_global_packages:
+  - name: gulp
+    version: 3.9.1
+  - name: ember-cli
+    version: 2.11.1
+  - name: react-native-cli
+    version: 2.0.1
+  - name: phantomjs
+    version: 2.1.7

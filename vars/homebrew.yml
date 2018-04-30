@@ -1,0 +1,91 @@
+---
+homebrew_taps:
+  - homebrew/core
+  - homebrew/services
+  - caskroom/cask
+  - petere/postgresql
+
+homebrew_packages:
+  - cowsay
+  - gettext
+  - git
+  - git-flow
+  - htop
+  - iperf
+  - mc
+  - mtr
+  - nmap
+  - pwgen
+  - telnet
+  - thefuck
+  - tree
+  - vim
+  - wget
+  - zsh
+  - mongodb@3.2
+  - mysql
+  - postgresql@9.6
+  - rabbitmq
+  - redis
+  - tor
+  - freetype
+  - gettext
+  - libjpeg
+  - libmagic
+  - libmemcached
+  - libffi
+  - little-cms2
+  - watchman
+  - webp
+  - zlib
+  - go
+  - node@8
+  - python
+  - python3
+  - pyenv
+  - pipenv
+
+homebrew_packages_with_args:
+  - name: freetds
+    args: "with-msdblib,with-odbc-wide,with-unixodbc"
+
+homebrew_cask_apps:
+  - 1password
+  - alfred
+  - atom
+  - cheatsheet
+  - cleanmymac
+  - dash
+  - docker
+  - drawio
+  - firefox
+  - flux
+  - gemini
+  - google-chrome
+  - google-drive-file-stream
+  - iina
+  - impactor
+  - insomniax
+  - iterm2
+  - jump-desktop
+  - mplayerx
+  - onedrive
+  - owasp-zap
+  - parallels
+  - pgadmin4
+  - pycharm
+  - rdm
+  - robomongo
+  - sql-operations-studio
+  - slack
+  - steam
+  - sublime-text
+  - torbrowser
+  - transmission
+  - tunnelblick
+  - visual-studio-code
+  - vlc
+  - whatsapp
+  - unetbootin
+  - xld
+  - xnconvert
