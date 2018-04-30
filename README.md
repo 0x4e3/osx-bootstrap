@@ -22,6 +22,20 @@ In my work, I use:
 
 Repository contains my own preferred settings and lists of packages and applications.
 
+## Installation
+
+Install all required roles:
+
+```bash
+ansible-galaxy install -r requirements.yml
+```
+
+Play:
+
+```bash
+ansible-playbook playbook.yml
+```
+
 ## Notes
 
 This playbook and all roles had been created to automate my own workstation configuration and it's 100% prefect, IMHO.
