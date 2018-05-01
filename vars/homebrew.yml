@@ -69,6 +69,7 @@ homebrew_cask_apps:
   - iterm2
   - jump-desktop
   - mplayerx
+  - nox-app-player
   - onedrive
   - owasp-zap
   - parallels
