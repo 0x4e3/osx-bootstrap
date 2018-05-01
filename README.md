@@ -2,8 +2,11 @@
 
 Ansible playbook for Mac OS X bootstrap for Python Full stack developers.
 
+[![GitHub license](https://img.shields.io/github/license/0x4e3/osx-bootstrap.svg)](https://github.com/0x4e3/osx-bootstrap/blob/master/LICENSE)
+
 ## Roles
 
+* [roderik.superlumic-osx-defaults](https://galaxy.ansible.com/roderik/superlumic-osx-defaults/) -- configure Mac OS X defaults.
 * [0x4e3.osx-bootstrap-homebrew](https://galaxy.ansible.com/0x4e3/osx-bootstrap-homebrew/) -- install homebrew, required taps, packages and applications.
 * [0x4e3.osx-bootstrap-user](https://galaxy.ansible.com/0x4e3/osx-bootstrap-user/) -- configure user environment (shell, path, etc.).
 * [0x4e3.osx-bootstrap-npm](https://galaxy.ansible.com/0x4e3/osx-bootstrap-npm/) -- install node, npm and required global packages for frontend.
@@ -41,6 +44,7 @@ ansible-playbook playbook.yml
 
 * [ ] add role for Mac OS X ```defaults``` configuration
 
-## Notes
+## Credits
 
-This playbook and all roles had been created to automate my own workstation configuration and it's 100% prefect, IMHO.
+* [osx-defaults](https://galaxy.ansible.com/roderik/superlumic-osx-defaults/) -- easy to use role for defaults configuration by [Hiroaki Nakamura](http://hnakamur.github.io/) and [Roderik van der Veer](https://github.com/superlumic)
+* [macOS Defaults](https://github.com/kevinSuttle/macOS-Defaults) -- wonderful collection of Mac OS X defaults by [Mathias Bynens](https://github.com/mathiasbynens) and [Kevin Suttle](https://github.com/kevinSuttle)
