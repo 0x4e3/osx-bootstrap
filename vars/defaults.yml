@@ -140,7 +140,7 @@ osx_defaults:
     key: 'wvous-bl-modifier'
     type: int
     value: 0
-    - domain: 'com.apple.finder'
+  - domain: 'com.apple.finder'
     key: 'FXPreferredViewStyle'
     type: string
     value: "clmv"
