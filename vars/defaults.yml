@@ -1,0 +1,314 @@
+---
+osx_defaults:
+  - domain: 'NSGlobalDomain'
+    key: 'NSTableViewDefaultSizeMode'
+    type: int
+    value: 1
+  - domain: 'NSGlobalDomain'
+    key: 'NSNavPanelExpandedStateForSaveMode'
+    type: bool
+    value: true
+  - domain: 'NSGlobalDomain'
+    key: 'NSNavPanelExpandedStateForSaveMode2'
+    type: bool
+    value: true
+  - domain: 'NSGlobalDomain'
+    key: 'PMPrintingExpandedStateForPrint'
+    type: bool
+    value: true
+  - domain: 'NSGlobalDomain'
+    key: 'PMPrintingExpandedStateForPrint2'
+    type: bool
+    value: true
+  - domain: 'NSGlobalDomain'
+    key: 'NSQuitAlwaysKeepsWindows'
+    type: bool
+    value: false
+  - domain: 'NSGlobalDomain'
+    key: 'ApplePressAndHoldEnabled'
+    type: bool
+    value: false
+  - domain: 'NSGlobalDomain'
+    key: 'KeyRepeat'
+    type: int
+    value: 2
+  - domain: 'NSGlobalDomain'
+    key: 'InitialKeyRepeat'
+    type: int
+    value: 15
+  - domain: 'NSGlobalDomain'
+    key: 'AppleShowAllExtensions'
+    type: bool
+    value: true
+  - domain: 'NSGlobalDomain'
+    key: 'WebKitDeveloperExtras'
+    type: bool
+    value: true
+  - domain: 'NSGlobalDomain'
+    key: 'AppleShowScrollBars'
+    type: string
+    value: "WhenScrolling"
+  - domain: '/Library/Preferences/SystemConfiguration/com.apple.smb.server'
+    key: 'NetBIOSName'
+    type: string
+    value: "adBook"
+  - domain: '/Library/Preferences/SystemConfiguration/com.apple.smb.server'
+    key: 'ServerDescription'
+    type: string
+    value: "adBook"
+  - domain: 'com.apple.addressbook'
+    key: 'ABShowDebugMenu'
+    type: bool
+    value: true
+  - domain: 'com.apple.appstore'
+    key: 'WebKitDeveloperExtras'
+    type: bool
+    value: true
+  - domain: 'com.apple.appstore'
+    key: 'ShowDebugMenu'
+    type: bool
+    value: true
+  - domain: 'com.apple.dashboard'
+    key: 'mcx-disabled'
+    type: bool
+    value: true
+  - domain: 'com.apple.desktopservices'
+    key: 'DSDontWriteNetworkStores'
+    type: bool
+    value: true
+  - domain: 'com.apple.DiskUtility'
+    key: 'DUDebugMenuEnabled'
+    type: bool
+    value: true
+  - domain: 'com.apple.DiskUtility'
+    key: 'advanced-image-options'
+    type: bool
+    value: true
+  - domain: 'com.apple.dock'
+    key: 'dashboard-in-overlay'
+    type: bool
+    value: true
+  - domain: 'com.apple.dock'
+    key: 'autohide'
+    type: bool
+    value: false
+  - domain: 'com.apple.dock'
+    key: 'minimize-to-application'
+    type: int
+    value: 1
+  - domain: 'com.apple.dock'
+    key: 'showAppExposeGestureEnabled'
+    type: int
+    value: 1
+  - domain: 'com.apple.dock'
+    key: 'show-process-indicators'
+    type: bool
+    value: true
+  - domain: 'com.apple.dock'
+    key: 'orientation'
+    type: string
+    value: bottom
+  - domain: 'com.apple.dock'
+    key: 'tilesize'
+    type: int
+    value: 39
+  - domain: 'com.apple.dock'
+    key: 'expose-animation-duration'
+    type: float
+    value: 0.1
+  - domain: 'com.apple.dock'
+    key: 'autohide-delay'
+    type: float
+    value: 0
+  - domain: 'com.apple.dock'
+    key: 'autohide-time-modifier'
+    type: float
+    value: 0
+  - domain: 'com.apple.dock'
+    key: 'launchanim'
+    type: bool
+    value: false
+  - domain: 'com.apple.dock'
+    key: 'mru-spaces'
+    type: bool
+    value: false
+  - domain: 'com.apple.dock'
+    key: 'wvous-bl-corner'
+    type: int
+    value: 5
+  - domain: 'com.apple.dock'
+    key: 'wvous-bl-modifier'
+    type: int
+    value: 0
+    - domain: 'com.apple.finder'
+    key: 'FXPreferredViewStyle'
+    type: string
+    value: "clmv"
+  - domain: 'com.apple.finder'
+    key: 'DisableAllAnimations'
+    type: bool
+    value: true
+  - domain: 'com.apple.finder'
+    key: 'NewWindowTarget'
+    type: string
+    value: "PfLo"
+  - domain: 'com.apple.finder'
+    key: 'ShowExternalHardDrivesOnDesktop'
+    type: bool
+    value: false
+  - domain: 'com.apple.finder'
+    key: 'ShowHardDrivesOnDesktop'
+    type: bool
+    value: false
+  - domain: 'com.apple.finder'
+    key: 'ShowMountedServersOnDesktop'
+    type: bool
+    value: false
+  - domain: 'com.apple.finder'
+    key: 'ShowRemovableMediaOnDesktop'
+    type: bool
+    value: false
+  - domain: 'com.apple.finder'
+    key: 'ShowStatusBar'
+    type: bool
+    value: true
+  - domain: 'com.apple.finder'
+    key: 'ShowPathbar'
+    type: bool
+    value: true
+  - domain: 'com.apple.finder'
+    key: 'QLEnableTextSelection'
+    type: bool
+    value: true
+  - domain: 'com.apple.finder'
+    key: 'FXDefaultSearchScope'
+    type: string
+    value: "SCcf"
+  - domain: 'com.apple.finder'
+    key: 'FXEnableExtensionChangeWarning'
+    type: bool
+    value: false
+  - domain: 'com.apple.finder'
+    key: 'FXPreferredViewStyle'
+    type: string
+    value: "clmv"
+  - domain: 'com.apple.finder'
+    key: 'EmptyTrashSecurely'
+    type: bool
+    value: true
+  - domain: 'com.apple.LaunchServices'
+    key: 'LSQuarantine'
+    type: bool
+    value: false
+  - domain: 'com.apple.iCal'
+    key: 'IncludeDebugMenu'
+    type: bool
+    value: true
+  - domain: 'com.apple.mail'
+    key: 'DisableReplyAnimations'
+    type: bool
+    value: true
+  - domain: 'com.apple.mail'
+    key: 'DisableSendAnimations'
+    type: bool
+    value: true
+  - domain: 'com.apple.mail'
+    key: 'AddressesIncludeNameOnPasteboard'
+    type: bool
+    value: false
+  - domain: 'com.apple.menuextra.clock'
+    key: 'DateFormat'
+    type: string
+    value: "EEE d MMM  HH:mm:ss"
+  - domain: 'com.apple.menuextra.battery'
+    key: 'ShowPercent'
+    type: string
+    value: 'YES'
+  - domain: 'com.apple.NetworkBrowser'
+    key: 'BrowseAllInterfaces'
+    type: bool
+    value: true
+  - domain: 'com.apple.screensaver'
+    key: 'askForPassword'
+    type: int
+    value: 1
+  - domain: 'com.apple.screensaver'
+    key: 'askForPasswordDelay'
+    type: int
+    value: 0
+  - domain: 'com.apple.screencapture'
+    key: 'type'
+    type: string
+    value: png
+  - domain: 'com.apple.screencapture'
+    key: 'location'
+    type: string
+    value: "${HOME}/Pictures/Screenshots"
+  - domain: 'com.apple.Safari'
+    key: 'ShowFullURLInSmartSearchField'
+    type: bool
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'HomePage'
+    type: string
+    value: "about:blank"
+  - domain: 'com.apple.Safari'
+    key: 'AutoOpenSafeDownloads'
+    type: bool
+    value: false
+  - domain: 'com.apple.Safari'
+    key: 'com.apple.Safari.ContentPageGroupIdentifier.WebKit2BackspaceKeyNavigationEnabled'
+    type: bool
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'ShowSidebarInTopSites'
+    type: bool
+    value: false
+  - domain: 'com.apple.Safari'
+    key: 'IncludeInternalDebugMenu'
+    type: bool
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'FindOnPageMatchesWordStartsOnly'
+    type: bool
+    value: false
+  - domain: 'com.apple.Safari'
+    key: 'IncludeDevelopMenu'
+    type: bool
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'WebKitDeveloperExtrasEnabledPreferenceKey'
+    type: bool
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled'
+    type: bool
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'AlwaysRestoreSessionAtLaunch'
+    type: bool
+    value: true
+  - domain: 'com.apple.Safari'
+    key: 'AlwaysShowFavoritesBarInFullScreen'
+    type: bool
+    value: false
+  - domain: 'com.apple.Safari'
+    key: 'AlwaysShowTabBar'
+    type: bool
+    value: false
+  - domain: 'com.apple.Safari'
+    key: 'AlwaysShowTabBarInFullScreen'
+    type: bool
+    value: false
+  - domain: 'com.apple.Safari'
+    key: 'ExtensionsEnabled'
+    type: bool
+    value: true
+  - domain: 'com.apple.print.PrintingPrefs'
+    key: 'Quit When Finished'
+    type: bool
+    value: true
+  - domain: 'com.googlecode.iterm2'
+    key: 'HideTab'
+    type: bool
+    value: false
