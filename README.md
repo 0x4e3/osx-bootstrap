@@ -40,10 +40,6 @@ Play:
 ansible-playbook playbook.yml
 ```
 
-## TODOs
-
-* [ ] add role for Mac OS X ```defaults``` configuration
-
 ## Credits
 
 * [osx-defaults](https://galaxy.ansible.com/roderik/superlumic-osx-defaults/) -- easy to use role for defaults configuration by [Hiroaki Nakamura](http://hnakamur.github.io/) and [Roderik van der Veer](https://github.com/superlumic)
