@@ -6,7 +6,6 @@
     - vars/npm.yml
     - vars/user.yml
   roles:
-    - roderik.superlumic-osx-defaults
     - 0x4e3.osx-bootstrap-homebrew
     - 0x4e3.osx-bootstrap-user
     - 0x4e3.osx-bootstrap-npm
