@@ -43,6 +43,7 @@ homebrew_packages:
   - python
   - python3
   - pyenv
+  - pyenv-virtualenv
   - pipenv
 
 homebrew_packages_with_args:
