@@ -4,6 +4,7 @@ homebrew_taps:
   - homebrew/services
   - caskroom/cask
   - petere/postgresql
+  - microsoft/mssql-release
 
 homebrew_packages:
   - cowsay
@@ -22,8 +23,10 @@ homebrew_packages:
   - vim
   - wget
   - zsh
+  - minikube
+  - kubernetes-cli
   - mongodb@3.2
-  - mysql
+  - mysql@5.7
   - postgresql@9.6
   - rabbitmq
   - redis
@@ -40,15 +43,12 @@ homebrew_packages:
   - zlib
   - go
   - node@8
-  - python
-  - python3
   - pyenv
-  - pyenv-virtualenv
   - pipenv
+  - mssql-tools
+  - msodbcsql17
 
-homebrew_packages_with_args:
-  - name: freetds
-    args: "with-msdblib,with-odbc-wide,with-unixodbc"
+homebrew_packages_with_args: []
 
 homebrew_cask_apps:
   - 1password
@@ -82,6 +82,7 @@ homebrew_cask_apps:
   - slack
   - steam
   - sublime-text
+  - sublime-merge
   - torbrowser
   - transmission
   - tunnelblick
