@@ -40,8 +40,9 @@ homebrew_cask_apps:
   - google-chrome
   - insomniax
   - iterm2
-  - pycharm
+  - jetbrains-toolbox
   - sql-operations-studio
   - slack
+  - sourcetree
   - sublime-merge
   - visual-studio-code
