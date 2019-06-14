@@ -23,8 +23,6 @@ homebrew_packages:
   - vim
   - wget
   - zsh
-  - minikube
-  - kubernetes-cli
   - tor
   - pyenv
   - pipenv
