@@ -26,23 +26,13 @@ homebrew_packages:
   - minikube
   - kubernetes-cli
   - tor
-  - freetype
-  - gettext
-  - libjpeg
-  - libmagic
-  - libmemcached
-  - libffi
-  - little-cms2
-  - watchman
-  - webp
-  - zlib
-  - go
   - node@12
   - pyenv
   - pyenv-virtualenv
   - erlang
   - elixir
   - qmk
+  - neovim
 
 homebrew_packages_with_args: []
 
