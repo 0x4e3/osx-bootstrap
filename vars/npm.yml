@@ -1,5 +1,5 @@
 ---
 npm_global_packages:
-  - name: gulp-cli
-  - name: ember-cli
-  - name: react-native-cli
+  - name: http-server
+  - name: swagger-cli
+  - name: yarn
