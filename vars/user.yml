@@ -2,19 +2,15 @@
 user_use_pyenv: false
 
 user_exports:
+- EDITOR='nvim'
 - PATH="/usr/local/sbin:$PATH"
 - PATH="$PATH:$HOME/.rvm/bin"
-- PATH="/usr/local/opt/mongodb@3.2/bin:$PATH"
-- PATH=$PATH:/usr/local/opt/go/libexec/bin
-- GOPATH=$HOME/Projects/go
-- PATH=$PATH:$GOPATH/bin
 - PYTHONDONTWRITEBYTECODE=whooosh
-- PATH="/usr/local/opt/node@8/bin:$PATH"
 - PATH="~/.local/bin:$PATH"
 - PYENV_ROOT="${HOME}/.pyenv"
 - PATH="${PYENV_ROOT}/bin:${PATH}"
-- PIPENV_VENV_IN_PROJECT=1
-- export PIPENV_IGNORE_VIRTUALENVS=1
+- PATH="$HOME/.poetry/bin:$PATH"
+- PATH="/usr/local/opt/node@12/bin:$PATH"
 
 oh_my_zsh_plugins:
 - osx
@@ -34,15 +30,15 @@ oh_my_zsh_plugins:
 oh_my_zsh_hash_directories:
 - projects=~/Projects
 - sandbox=~/Projects/sandbox
-- suzuki-projects=~/Projects/suzuki
-- itgene-projects=~/Projects/itgene
 - personal=~/Projects/personal
 
 oh_my_zsh_aliases:
+- vim="nvim"
 - zshconfig="vim ~/.zshrc"
 - zshupdate="source ~/.zshrc"
 - ohmyzsh="vim ~/.oh-my-zsh"
 - lh="ls -lah"
+- la="ls -la"
 - get-pub-key="cat ~/.ssh/id_rsa.pub"
 - c="/usr/bin/clear"
 - fuck='eval $(thefuck $(fc -ln -1 | tail -n 1)); fc -R'
