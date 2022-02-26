@@ -33,6 +33,7 @@ homebrew_packages:
   - elixir
   - qmk
   - neovim
+  - starship
 
 homebrew_packages_with_args: []
 
