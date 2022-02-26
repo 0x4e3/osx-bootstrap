@@ -25,11 +25,6 @@ homebrew_packages:
   - zsh
   - minikube
   - kubernetes-cli
-  - mongodb@3.2
-  - mysql@5.7
-  - postgresql@9.6
-  - rabbitmq
-  - redis
   - tor
   - freetype
   - gettext
@@ -42,53 +37,36 @@ homebrew_packages:
   - webp
   - zlib
   - go
-  - node@8
+  - node@12
   - pyenv
-  - pipenv
-  - mssql-tools
-  - msodbcsql17
+  - pyenv-virtualenv
+  - erlang
+  - elixir
+  - qmk
 
 homebrew_packages_with_args: []
 
 homebrew_cask_apps:
   - 1password
-  - alfred
-  - atom
   - cheatsheet
   - cleanmymac
   - dash
+  - deezer
   - docker
   - drawio
   - firefox
-  - flux
-  - gemini
   - google-chrome
-  - google-drive-file-stream
   - iina
-  - impactor
-  - insomniax
   - iterm2
-  - jump-desktop
-  - mplayerx
-  - nox-app-player
-  - onedrive
-  - owasp-zap
-  - parallels
-  - pgadmin4
-  - pycharm
-  - rdm
-  - robomongo
-  - sql-operations-studio
+  - jetbrains-toolbox
+  - notion
+  - openinterminal
   - slack
-  - steam
-  - sublime-text
-  - sublime-merge
+  - postman
+  - popclip
   - torbrowser
-  - transmission
   - tunnelblick
   - visual-studio-code
   - vlc
   - whatsapp
-  - unetbootin
   - xld
-  - xnconvert
