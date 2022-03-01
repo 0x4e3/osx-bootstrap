@@ -2,7 +2,7 @@
 homebrew_taps:
   - homebrew/core
   - homebrew/services
-  - caskroom/cask
+  - homebrew/cask
   - petere/postgresql
   - microsoft/mssql-release
 
