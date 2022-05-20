@@ -31,7 +31,6 @@ homebrew_packages:
   - pyenv-virtualenv
   - erlang
   - elixir
-  - qmk
   - neovim
   - starship
 
