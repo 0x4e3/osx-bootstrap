@@ -1,7 +1,2 @@
 ---
 node_brew_package: node@12
-
-npm_global_packages:
-  - name: http-server
-  - name: swagger-cli
-  - name: yarn
