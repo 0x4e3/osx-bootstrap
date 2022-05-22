@@ -3,6 +3,7 @@ homebrew_taps:
   - homebrew/core
   - homebrew/services
   - homebrew/cask
+  - homebrew/cask-fonts
   - petere/postgresql
   - microsoft/mssql-release
 
@@ -37,7 +38,6 @@ homebrew_packages:
 homebrew_packages_with_args: []
 
 homebrew_cask_apps:
-  - 1password
   - cheatsheet
   - cleanmymac
   - dash
